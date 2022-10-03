@@ -46,7 +46,7 @@ const theirCat = {
   hands: 0,
 };
 
-print(getInfo(janLevinson));
-print(getInfo(michaelScott));
-print(getInfo(theirDog));
-print(getInfo(theirCat));
+const listOfCreatures = [janLevinson, michaelScott, theirDog, theirCat];
+listOfCreatures.forEach((el) => {
+  print(getInfo(el));
+});
