@@ -59,5 +59,5 @@ let theirCat = new Cat ('Kytsya', 'Female', [janLevinson, theirDog]);
 
 const listOfCreatures = [janLevinson, michaelScott, theirDog, theirCat];
 listOfCreatures.forEach((el) => {
-  print(getInfo(el));
+  print(el.getInfo());
 });
